@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.practice.MainActivity">
+
+    <item android:id="@+id/search"
+        android:title="Search Vaishnava song..."
+        compat:showAsAction="always"
+        compat:actionViewClass="android.widget.SearchView"
+        android:visible="true"/>
+</menu>
